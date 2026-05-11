@@ -1,0 +1,55 @@
+/* RESET DE CONFIGURAÇÕES DO NAVEGADOR */
+* {
+    margin: 2;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(assets/826397.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(16, 17, 0);
+    font-family: 'Trebuchet MS';
+    font-size: xx-large;
+    background-color: rgb(133, 225, 225);
+    width: 10cap;
+    margin-left: 36cap;
+    position: relative;
+    
+}
+p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    margin: 3cap;
+    background-color: rgb(133, 225, 225);
+    width: 50cap;
+    margin: 5cap;
+    margin-left: 55cap;
+    position: relative;
+}
+a {
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    position: relative;
+    
+}
+
+
+button {
+    display: block;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px auto;
+    background-color: rgb(220, 206, 151);
+
+}
