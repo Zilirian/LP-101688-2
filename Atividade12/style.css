@@ -1,0 +1,63 @@
+/*  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(assets/tlou02-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-size: 100 px;
+    color: rgb(180, 250, 189);
+    text-align: center;
+    margin-top: 2cap;
+}
+.p1 {
+    font-size: 18px;
+    width: 70cap;
+    margin-left: 9cap;
+    margin-top: 5cap;
+    margin-bottom: 5cap;
+    color: rgb(180, 250, 189);
+    max-width: 60cap;
+}
+.p2 {
+    font-size: 18px;
+    width: 70cap;
+    margin-left: 120cap;
+    margin-top: 5cap;
+    margin-bottom: 5cap;
+    color: rgb(180, 250, 189);
+    max-width: 40cap;
+}
+
+a {
+    color: rgb(0, 21, 0);
+}
+.buttonwiki {
+    font-size: 50px;
+    ;
+    color: rgb(33, 31, 23);
+    font-family: serif;
+    background-image: url(assets/images.jpg);
+    background-size: 190px 90px;
+    background-repeat: no-repeat;
+    margin-left: 3cap;
+    width: 4cap;
+    
+}
+.buttoncomprar {
+    font-size: 50px;
+    color: rgb(2, 8, 5);
+    font-family: serif;
+    background-image: url(assets/images.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0cap;
+    margin-left: 45cap;
+    width: 10cap;
+    
+}

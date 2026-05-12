@@ -1,0 +1,138 @@
+/*  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(assets/league-of-legends-4096x2538-10542.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-size: 6cap;
+    max-height: 5cap;
+    text-shadow:5cap;
+    color: rgb(26, 0, 154);
+    text-align: center;
+    margin-top: 1cap;
+    
+}
+.Toplaner {
+    font-size: 3cap;
+    max-height: 5cap;
+    text-shadow:5cap;
+    color: rgb(26, 0, 154);
+    margin-left: 4.7cap;
+    margin-top: 1cap;
+    background-color: aquamarine;
+    max-width: 2.5cap;
+}
+.Sup {
+    font-size: 3cap;
+    max-height: 5cap;
+    text-shadow:5cap;
+    color: rgb(26, 0, 154);
+    margin-left: 4.7cap;
+    margin-top: 1cap;
+    max-width: 2.5cap;
+    background-color: aquamarine;
+}
+.Jungle {
+    font-size: 3cap;
+    max-height: 5cap;
+    text-shadow:5cap;
+    color: rgb(26, 0, 154);
+    margin-left: 4cap;
+    margin-top: 1cap;
+    max-width: 4.3cap;
+    background-color: aquamarine;
+}
+.Mid {
+    font-size: 3cap;
+    max-height: 5cap;
+    text-shadow:5cap;
+    color: rgb(26, 0, 154);
+    margin-left: 4.7cap;
+    margin-top: 1cap;
+    max-width: 2.8cap;
+    background-color: aquamarine;
+}
+.Adc {
+    font-size: 3cap;
+    max-height: 5cap;
+    text-shadow:5cap;
+    color: rgb(26, 0, 154);
+    margin-left: 4.7cap;
+    margin-top: 1cap;
+    max-width: 2.7cap;
+    background-color: aquamarine;
+
+}
+.a {
+    font-size: 25px;
+    ;
+    color: rgb(33, 31, 23);
+    font-family: cursive;
+    background-color: aqua; 
+    background-size: 190px 90px;
+    background-repeat: no-repeat;
+    margin-left: 3cap;
+    max-width: 8cap;
+    margin-top: 0.5cap;
+    
+}
+.b {
+    font-size: 25px;
+    ;
+    color: rgb(33, 31, 23);
+    font-family: cursive;
+    background-color: aqua; 
+    background-size: 190px 90px;
+    background-repeat: no-repeat;
+    margin-left: 3cap;
+    max-width: 8cap;
+    margin-top: 0.5cap;
+}
+.c {
+    font-size: 25px;
+    ;
+    color: rgb(33, 31, 23);
+    font-family: cursive;
+    background-color: aqua; 
+    background-size: 190px 90px;
+    background-repeat: no-repeat;
+    margin-left: 3cap;
+    max-width: 7.5cap;
+    max-height: 5cap;
+    margin-top: 0.5cap;
+    
+}
+.d {
+    font-size: 25px;
+    ;
+    color: rgb(33, 31, 23);
+    font-family: cursive;
+    background-color: aqua; 
+    background-size: 190px 90px;
+    background-repeat: no-repeat;
+    margin-left: 3cap;
+    max-width: 8cap;
+    margin-top: 0.5cap;
+    
+}.e {
+    font-size: 25px;
+    ;
+    color: rgb(33, 31, 23);
+    font-family: cursive;
+    background-color: aqua; 
+    background-size: 190px 90px;
+    background-repeat: no-repeat;
+    margin-left: 3cap;
+    max-width: 8cap;
+    margin-top: 0.5cap;
+    
+}
+
+
+
