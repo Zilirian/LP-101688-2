@@ -1,0 +1,135 @@
+/* =========================================
+   Reset e Configurações Básicas
+   ========================================= */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* Fonte oficial da Apple (San Francisco) ou as fontes padrão do sistema */
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f5f5f7; /* Cinza claro característico do fundo do macOS/iOS */
+    color: #1d1d1f; /* Cinza escuro quase preto para maior conforto visual */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* =========================================
+   Tipografia
+   ========================================= */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+label {
+    font-size: 1.05rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+    display: block;
+    text-align: center;
+}
+
+/* =========================================
+   Campos de Entrada (Inputs)
+   ========================================= */
+input[type="number"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    max-width: 320px;
+    padding: 16px 20px;
+    font-size: 1.1rem;
+    font-family: inherit;
+    border: 1px solid #d2d2d7;
+    border-radius: 14px;
+    background-color: #ffffff;
+    color: #1d1d1f;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+/* Efeito de foco inspirado no iOS/macOS */
+input[type="number"]:focus {
+    border-color: #0071e3; /* Azul Apple */
+    box-shadow: 0 0 0 4px rgba(0, 113, 227, 0.2);
+}
+
+input[type="number"]::placeholder {
+    color: #86868b;
+}
+
+/* =========================================
+   Botões
+   ========================================= */
+button {
+    background-color: #0071e3; /* Azul clássico de ação da Apple */
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: inherit;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 24px; /* Formato de "pílula" */
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #0077ed; /* Leve clareada no hover */
+}
+
+button:active {
+    transform: scale(0.97); /* Efeito de clique tátil */
+}
+
+/* =========================================
+   Área de Resultados (Container estilo "Cartão")
+   ========================================= */
+#resultadoTabuada {
+    margin-top: 2.5rem;
+    width: 100%;
+    max-width: 400px;
+    background: #ffffff;
+    border-radius: 20px; /* Cantos bem arredondados */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04); /* Sombra suave e difusa */
+    padding: 24px;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #1d1d1f;
+    opacity: 0; /* Começa invisível para animação no JS (opcional) */
+    animation: fadeIn 0.5s forwards ease;
+}
+
+/* Estilização para as linhas da tabuada (assumindo que o JS gere tags <p> ou <div>) */
+#resultadoTabuada p, 
+#resultadoTabuada div {
+    border-bottom: 1px solid #f5f5f7;
+    padding: 10px 0;
+}
+
+#resultadoTabuada p:last-child, 
+#resultadoTabuada div:last-child {
+    border-bottom: none;
+}
+
+/* Animação suave de entrada */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
