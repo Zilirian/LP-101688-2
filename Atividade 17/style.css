@@ -1,0 +1,147 @@
+/* =========================================
+   Reset e Configurações Básicas
+   ========================================= */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Pagina1 {
+    background-image: url(Assets/urban-landscape-tokyo-city-nigh-time.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    
+    /* Tipografia inspirada na 'SamsungOne'*/
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.6); 
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    
+    padding: 40px 50px;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.Pagina2 {
+    background-image: url(Assets/tokyo-city-night-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    
+    /* Tipografia inspirada na 'SamsungOne'*/
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1#Titulo {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.5px; 
+    margin-bottom: 12px;
+}
+
+h2#Pergunta {
+    color: #e4e4e7; 
+    font-size: 1.15rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.samsung-btn {
+    display: inline-block;
+    text-decoration: none; /* Remove o sublinhado padrão de link */
+    text-align: center;
+    margin-top: 20px;
+    background-color: #ffffff;
+    color: #0d0d0c;
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.5px; 
+    padding: 12px 28px; 
+    border-radius: 30px; 
+    transition: all 0.25s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.samsung-btn:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Página 2 */
+
+.Cabeçalho {
+    background: rgba(255, 251, 251, 0.526); 
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    
+    border: 1px solid rgba(0, 0, 0, 0.263);
+    border-radius: 20px;
+    
+    padding: 40px 50px;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    
+    box-shadow: 0 20px 40px #fff2f240;
+
+    transition: all 0.3s ease;
+}
+
+.voltar {
+    margin-top: 2cap;
+    background: rgba(0, 0, 0, 0.926); 
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 246, 246, 0.1);
+    border-radius: 20px; 
+    padding: 10px 5px;
+    text-align: center;
+    max-width: 200px;
+    width: 100%;
+    box-shadow: 0 20px 40px rgba(41, 38, 38, 0.4);
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-display: block;
+    -webkit-text-fill-color: aliceblue;
+}
+.voltar:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
